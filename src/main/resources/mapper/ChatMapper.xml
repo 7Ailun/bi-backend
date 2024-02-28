@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yupi.springbootinit.mapper.ChatMapper">
+
+    <resultMap id="BaseResultMap" type="com.yupi.springbootinit.model.entity.Chat">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="question" column="question" jdbcType="VARCHAR"/>
+            <result property="genResult" column="genResult" jdbcType="VARCHAR"/>
+            <result property="chatType" column="chatType" jdbcType="VARCHAR"/>
+            <result property="chatStatus" column="chatStatus" jdbcType="VARCHAR"/>
+            <result property="errorMessage" column="errorMessage" jdbcType="VARCHAR"/>
+            <result property="userId" column="userId" jdbcType="BIGINT"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,question,genResult,
+        chatType,chatStatus,errorMessage,
+        userId,createTime,updateTime,
+        isDelete
+    </sql>
+</mapper>
