@@ -265,6 +265,8 @@ public class ChartController {
         String goal = genChartByAiRequest.getGoal();
         String chartType = genChartByAiRequest.getChartType();
         // 校验
+        // 校验
+        // 校验
         ThrowUtils.throwIf(StringUtils.isBlank(goal),ErrorCode.PARAMS_ERROR,"分析目标为空");
         ThrowUtils.throwIf(StringUtils.isNotBlank(goal) && name.length() > 100,ErrorCode.PARAMS_ERROR,"名称过长");
         User loginUser = userService.getLoginUser(request);
