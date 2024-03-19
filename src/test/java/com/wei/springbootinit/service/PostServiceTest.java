@@ -1,12 +1,14 @@
-package com.yupi.springbootinit.service;
+package com.wei.springbootinit.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yupi.springbootinit.model.dto.post.PostQueryRequest;
 import com.yupi.springbootinit.model.entity.Post;
-import javax.annotation.Resource;
+import com.yupi.springbootinit.service.PostService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.annotation.Resource;
 
 /**
  * 帖子服务测试

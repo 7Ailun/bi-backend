@@ -1,5 +1,6 @@
-package com.yupi.springbootinit.bizmq;
+package com.wei.springbootinit.bizmq;
 
+import com.yupi.springbootinit.bizmq.MyMessageProducer;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

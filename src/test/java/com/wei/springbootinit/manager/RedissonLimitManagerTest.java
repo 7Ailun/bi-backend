@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.manager;
+package com.wei.springbootinit.manager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 @SpringBootTest
 class RedissonLimitManagerTest {
     @Resource
-    private RedissonLimitManager RedissonLimitManager;
+    private com.yupi.springbootinit.manager.RedissonLimitManager RedissonLimitManager;
 
     @Test
     void doRateLimit() {

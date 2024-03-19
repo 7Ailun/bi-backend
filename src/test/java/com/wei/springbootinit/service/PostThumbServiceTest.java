@@ -1,11 +1,13 @@
-package com.yupi.springbootinit.service;
+package com.wei.springbootinit.service;
 
 import com.yupi.springbootinit.model.entity.User;
-import javax.annotation.Resource;
+import com.yupi.springbootinit.service.PostThumbService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.annotation.Resource;
 
 /**
  * 帖子点赞服务测试

@@ -1,5 +1,6 @@
-package com.yupi.springbootinit.manager;
+package com.wei.springbootinit.manager;
 
+import com.yupi.springbootinit.manager.AiManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

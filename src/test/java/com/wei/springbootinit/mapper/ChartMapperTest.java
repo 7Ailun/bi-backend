@@ -1,11 +1,11 @@
-package com.yupi.springbootinit.mapper;
+package com.wei.springbootinit.mapper;
 
 import cn.hutool.core.util.ArrayUtil;
+import com.yupi.springbootinit.mapper.ChartMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
-import java.lang.reflect.Array;
 
 /**
  * Description:

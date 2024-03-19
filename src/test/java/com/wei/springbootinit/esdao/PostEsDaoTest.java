@@ -1,19 +1,21 @@
-package com.yupi.springbootinit.esdao;
+package com.wei.springbootinit.esdao;
 
+import com.yupi.springbootinit.esdao.PostEsDao;
 import com.yupi.springbootinit.model.dto.post.PostEsDTO;
 import com.yupi.springbootinit.model.dto.post.PostQueryRequest;
 import com.yupi.springbootinit.model.entity.Post;
 import com.yupi.springbootinit.service.PostService;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
-import javax.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+
+import javax.annotation.Resource;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+import java.util.Optional;
 
 /**
  * 帖子 ES 操作测试

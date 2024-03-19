@@ -1,9 +1,11 @@
-package com.yupi.springbootinit.service;
+package com.wei.springbootinit.service;
 
-import javax.annotation.Resource;
+import com.yupi.springbootinit.service.UserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.annotation.Resource;
 
 /**
  * 用户服务测试
