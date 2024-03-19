@@ -10,8 +10,8 @@ import java.util.List;
 /**
  * 查询请求
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/7Ailun">艾伦</a>
+ * 1 
  */
 @Data
 public class ChatQueryRequest extends PageRequest implements Serializable {

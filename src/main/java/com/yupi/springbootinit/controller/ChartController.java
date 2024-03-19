@@ -45,8 +45,8 @@ import static com.yupi.springbootinit.model.enums.ChartStatusEnum.*;
 /**
  * 帖子接口
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/7Ailun">艾伦</a>
+ * 1 
  */
 @RestController
 @RequestMapping("/chart")
